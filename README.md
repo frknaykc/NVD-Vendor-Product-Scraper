@@ -36,8 +36,8 @@ The `NVD-Vendor-Product-Scraper` script fetches vulnerability data from the NVD 
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/nvd-vendor-product-extractor.git
-    cd nvd-vendor-product-extractor
+    git clone https://github.com/frknaykc/NVD-Vendor-Product-Scraper.git
+    cd NVD-Vendor-Product-Scraper
     ```
 
 2. Install the required Python packages:
@@ -49,7 +49,7 @@ The `NVD-Vendor-Product-Scraper` script fetches vulnerability data from the NVD 
 
 1. Run the script:
     ```bash
-    python nvd_vendor_product_extractor.py
+    python vendorproduct.py
     ```
 
 2. The script will start fetching data from the NVD API and process it in chunks. Depending on the size of the data, it may take a while to complete. The script pauses for 6 seconds between API requests to comply with rate limits.
